@@ -37,7 +37,7 @@ function onKeyDown(evt) {
   if (evt.keyCode == 32) {
     return;
   }
-  newdir = evt.keyCode - 37;
+  newdir = evt.keyCode - 65;
 
   // only lateral turns are allowed
   // (that is, no u-turns)
